@@ -1,8 +1,8 @@
 
 import React from 'react';
 
-import InboxScreen from './InboxScreen';
-import store from '../lib/store';
+import InboxScreen from '../InboxScreen';
+import store from '../../lib/store';
 
 import { Provider } from 'react-redux';
 
