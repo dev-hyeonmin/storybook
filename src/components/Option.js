@@ -13,7 +13,7 @@ export default function Option({ option: { id, title, state }, keyword, onSelect
     return (
         <div
             className='item-option'
-            onClick={() => onSelected(option)}
+            onClick={() => onSelected(id, title)}
             dangerouslySetInnerHTML={createTitle(title)}
         >
         </div>

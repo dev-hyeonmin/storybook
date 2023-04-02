@@ -31,7 +31,7 @@ body { background-color: #e9eaf4; font-size: 14px; font-family: 'Roboto', sans-s
 */
 .search-input {position: relative;}
 .search-input input {min-width: 200px; height: 35px; padding: 0 10px; border: 1px solid #ddd; outline: none; box-sizing: border-box; font-size: 14px;}
-.item-select {position: absolute; top: 38px; width: -webkit-fit-content; min-width: 200px; padding: 0 10px; background-color: #fff; border-radius: 7px; box-sizing: border-box}
+.item-select {position: absolute; top: 38px; width: -webkit-fit-content; min-width: 200px; padding: 0 10px; background-color: #fff; border-radius: 7px; box-sizing: border-box; z-index: 9;}
 .item-select .item-option:nth-child(n+2) {border-top: 1px solid #eee;}
 .item-option {padding: 10px 15px; background-color: #fff; cursor: pointer;}
 .item-option i {font-style: initial; color: #1EA7FD;}
