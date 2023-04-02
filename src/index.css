@@ -35,3 +35,14 @@ body { background-color: #e9eaf4; font-size: 14px; font-family: 'Roboto', sans-s
 .item-select .item-option:nth-child(n+2) {border-top: 1px solid #eee;}
 .item-option {padding: 10px 15px; background-color: #fff; cursor: pointer;}
 .item-option i {font-style: initial; color: #1EA7FD;}
+
+/*
+* Button
+*/
+.button {width: 100px; height: 30px; background-color:#fff; border: 1px solid #ddd; border-radius: 5px; cursor: pointer;}
+.button.primary {background-color: #1EA7FD; color: #fff; border-color: #1EA7FD; transition: all ease 0.2s;}
+.button.primary:hover {box-shadow: 0px 0px 3px #1EA7FD;}
+.button.notice {background-color: #de2929; color: #fff; border-color: #de2929; transition: all ease 0.2s;}
+.button.notice:hover {box-shadow: 0px 0px 3px #de2929;}
+.button.button--large {width: 140px; height: 40px;}
+.button.button--small {width: 60px; height: 25px;}
