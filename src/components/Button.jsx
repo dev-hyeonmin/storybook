@@ -18,8 +18,8 @@ export const Button = ({ primary, notice, backgroundColor, size, label, ...props
 };
 
 Button.propTypes = {
-    primary: PropTypes.boolean,
-    notice: PropTypes.boolean,
+    primary: PropTypes.bool,
+    notice: PropTypes.bool,
     backgroundColor: PropTypes.string,
     size: PropTypes.oneOf(["small", "medium", "large"]),
     label: PropTypes.string.isRequired,
